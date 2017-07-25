@@ -1,0 +1,15 @@
+.header{
+	background-color:$nav-color;
+	color:$font-color;
+	padding-top: 35px;
+	font-size: 16px;
+}
+.header__item{
+	color:$font-color;
+}
+.header__item--button{
+	padding:3px 10px;
+	border-radius:13%;
+	margin-top:-13px;
+	background-color:$navy-blue;
+}
