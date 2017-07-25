@@ -4,6 +4,9 @@
 	padding-top: 35px;
 	font-size: 16px;
 }
+.header__subhead{
+	margin-bottom:0;
+}
 .header__item{
 	color:$font-color;
 }
@@ -12,4 +15,9 @@
 	border-radius:13%;
 	margin-top:-13px;
 	background-color:$navy-blue;
+}
+.body{
+	background-color:$navy-blue;
+	padding:50px 40px;
+	height:400px;
 }
