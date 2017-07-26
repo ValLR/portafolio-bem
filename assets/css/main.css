@@ -6794,7 +6794,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 
 .body {
   background-color: #1F3545;
-  padding: 50px 40px;
+  padding: 70px 40px;
   height: 620px;
   color: #E3EEE3; }
   .body__circle {
@@ -6842,6 +6842,24 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 .sm--dbbb {
   background-color: #C45784; }
 
+.video-sect {
+  background-color: #E5E5E5; }
+  .video-sect h3 {
+    font-weight: bolder;
+    color: #1F3545; }
+  .video-sect h5 {
+    color: whitesmoke;
+    margin-bottom: 30px; }
+  .video-sect .video__circ {
+    width: 200px;
+    height: 200px;
+    border: 5px solid #E64646; }
+  .video-sect .video__circ:hover {
+    opacity: 0.5; }
+  .video-sect .im-container__break {
+    word-wrap: break-word;
+    color: #1F3545; }
+
 body {
   padding: 0;
   margin: 0;
@@ -6861,5 +6879,11 @@ body {
     padding: 10px;
     font-size: 20px;
     text-align: center; }
+  body .video-sect {
+    padding: 50px;
+    height: 680px; }
+    body .video-sect hr {
+      border-top: 2px solid #E5E5E5;
+      text-align: center; }
 
 /*# sourceMappingURL=main.css.map */

@@ -11,4 +11,12 @@ body{
 	#hire{
 		@include hire();
 	}
+	.video-sect{
+		padding:50px;
+		height:680px;
+		hr{
+			border-top:2px solid $grey;
+			text-align:center;
+		}
+	}
 }
