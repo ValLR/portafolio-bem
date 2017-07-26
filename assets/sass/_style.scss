@@ -43,7 +43,40 @@
 			color:$green;
 		}
 		p{
-			font-size:15px;
+			font-size:17px;
 		}
 	}
+	.sm{
+		margin-top:60px;
+		font-size:35px;
+		&__container{
+			margin:0 20px;
+			padding:0;
+			a{
+				color:$font-color;
+			}
+			a:hover{
+				color:$navy-blue;
+			}
+		}
+	}
+}
+
+.sm--fb{
+		background-color:$fb;
+}
+.sm--twt{
+	background-color:$twttr;
+}
+.sm--gp{
+	background-color:$ggl;
+}
+.sm--pint{
+	background-color:$pnt;
+}
+.sm--su{
+	background-color:$stmup;
+}
+.sm--dbbb{
+	background-color:$drbbbl;
 }
